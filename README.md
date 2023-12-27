@@ -33,6 +33,10 @@ Fig 2: A diagram briefly describing the model.
 - Now, the pointer-network model is used to extract triplets. It takes input from both the material science papers and the distantly supervised corpus.
 - The pointer-network model gives the material science triplets as the outputs. The evaluation of the model is done with the gold standard annotated data. Precision, recall and F1-score are the evaluation metrics.
 
+# DEMO
+
+A sample web application has been built using Python streamlit library deployed on Huggingface Spaces to demonstrate our approach. Using our approach, the app extracts the relation triples, where a material science paper can be uploaded in PDF format, and the relation triplets are displayed. The link for the demo application is https://huggingface.co/spaces/matsci/matsci_triples.
+
 # Code
 
 The code has been run on two platforms: server and Google Colab pro.
